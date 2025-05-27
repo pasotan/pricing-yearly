@@ -1,1 +1,1 @@
-# pricing-yearly
+# pricing
