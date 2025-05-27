@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>料金プラン</title>
+  <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f8fa;
+    }
+    header {
+      background-color: #2f3e4e;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>料金プラン</h1>
+  </header>
+  <main>
+    <stripe-pricing-table
+      pricing-table-id="prctbl_1RT9EUAXHDy5igZWgONPfzhi"
+      publishable-key="pk_live_51RRU59AXHDy5igZWN5vAdN3fXMgz0YaAQ4CKmix36UT2QSQEdN0bhtJE5VtuaZo4g1Vp0qc3kCOopBEEInheT6iP00wPbj5ABi">
+    </stripe-pricing-table>
+    <stripe-pricing-table
+      pricing-table-id="prctbl_1RTSgXAXHDy5igZW0pTQbjtD"
+      publishable-key="pk_live_51RRU59AXHDy5igZWN5vAdN3fXMgz0YaAQ4CKmix36UT2QSQEdN0bhtJE5VtuaZo4g1Vp0qc3kCOopBEEInheT6iP00wPbj5ABi">
+    </stripe-pricing-table>
+  </main>
+</body>
+</html>
